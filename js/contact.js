@@ -37,6 +37,7 @@ function saveContactInfo(name, email, message) {
     newContactInfo.set({
         name: name,
         email: email,
+        phone: phone,
         message: message,
     });
 }
