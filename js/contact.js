@@ -70,7 +70,7 @@ function submitForm(e) {
 }
 
 // Save infos to Firebase
-function saveContactInfo(name, email, message) {
+function saveContactInfo(name, email,phone, message) {
     let newContactInfo = contactInfo.push();
 
     newContactInfo.set({
